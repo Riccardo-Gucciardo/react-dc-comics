@@ -1,3 +1,9 @@
+import fb from "../assets/img/footer-facebook.png"
+import peri from "../assets/img/footer-periscope.png"
+import pint from "../assets/img/footer-pinterest.png"
+import tw from "../assets/img/footer-twitter.png"
+import yt from "../assets/img/footer-youtube.png"
+
 function Footer(){
     return( 
         <>
@@ -50,8 +56,18 @@ function Footer(){
                     </div>
                 </div>
                 <div className="bottom">
-                    <div className="container">
-                        bottom footer
+                    <div className="containerBOTTOM">
+                        <button>
+                            SING-UP NOW!
+                        </button>
+                        <div className="social">
+                            <span>Follow us</span>
+                            <figure><img src={fb} alt="fb" /></figure>
+                            <figure><img src={peri} alt="peri" /></figure>
+                            <figure><img src={pint} alt="pint" /></figure>
+                            <figure><img src={tw} alt="tw" /></figure>
+                            <figure><img src={yt} alt="yt" /></figure>
+                        </div>
                     </div>    
                 </div>
 
