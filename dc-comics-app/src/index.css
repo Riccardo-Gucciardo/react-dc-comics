@@ -8,6 +8,10 @@ html{
   font-family: sans-serif; 
 }
 
+header{
+  padding-top: 20px;
+}
+
 .container{
   display: flex;
   justify-content: space-between;
@@ -34,11 +38,28 @@ figure img{
 
 }
 
-
 ul li{
   line-height: 80px;
 }
 
-ul li.active{
-  border-bottom: 3px solid blue;
+a:hover{
+  color: dodgerblue;
 }
+
+
+ul li.active a{
+  border-bottom: 3px solid var(dodgerblue);
+  color : var(dodgerblue)
+}
+ul li.active{
+  border-bottom: 3px solid dodgerblue;
+  color : dodgerblue
+}
+
+ul li:hover{
+  border-bottom: 3px solid dodgerblue;
+  color: dodgerblue;
+}
+
+
+
