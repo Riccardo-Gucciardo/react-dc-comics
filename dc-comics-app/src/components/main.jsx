@@ -12,23 +12,23 @@ function Main(){
                     <ul>
                         <li>
                             <figure><img src="src/assets/img/buy-comics-digital-comics.png" alt="icon" /></figure>
-                            <span>Nome icon</span>
+                            <span>DIGITAL COMIX</span>
                         </li>
                         <li>
                             <figure><img src="src/assets/img/buy-comics-merchandise.png" alt="icon" /></figure>
-                            <span>Nome icon</span>
+                            <span>DC MERCHANDISE</span>
                         </li>
                         <li>
                             <figure><img src="src/assets/img/buy-comics-shop-locator.png" alt="icon" /></figure>
-                            <span>Nome icon</span>
+                            <span>SUBCRIPTION</span>
                         </li>
                         <li>
                             <figure><img src="src/assets/img/buy-comics-subscriptions.png" alt="icon" /></figure>
-                            <span>Nome icon</span>
+                            <span>COMIC SHOP LOCATION</span>
                         </li>
                         <li>
                             <figure><img src="src/assets/img/buy-dc-power-visa.svg" alt="icon" /></figure>
-                            <span>Nome icon</span>
+                            <span>DC POWER VISA</span>
                         </li>
                     </ul>
                 </div>
