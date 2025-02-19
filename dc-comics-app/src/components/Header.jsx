@@ -1,9 +1,9 @@
 function Header(){
     return(
         <>
-        <Header>
-            hello world
-        </Header>
+        <header>
+            header
+        </header>
         </>
 
     );
