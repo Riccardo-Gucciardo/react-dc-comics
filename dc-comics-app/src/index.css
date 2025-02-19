@@ -46,20 +46,48 @@ a:hover{
   color: dodgerblue;
 }
 
-
-ul li.active a{
-  border-bottom: 3px solid var(dodgerblue);
-  color : var(dodgerblue)
-}
-ul li.active{
-  border-bottom: 3px solid dodgerblue;
-  color : dodgerblue
-}
-
 ul li:hover{
   border-bottom: 3px solid dodgerblue;
   color: dodgerblue;
 }
+
+#fumetti{
+  background-color: black;
+}
+#fumetti h2{
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+#icons{
+  background-color: dodgerblue;
+  color: white;
+  padding: 20px 0;
+}
+#icons ul li{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+   
+}
+#icons ul li figure img{
+  aspect-ratio: 1;
+  width: 28px;
+}
+
+#icons figure{
+  display: inherit;
+}
+
+#icons ul{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+
 
 
 
