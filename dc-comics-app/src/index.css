@@ -72,7 +72,6 @@ ul li:hover{
    
 }
 #icons ul li figure img{
-  aspect-ratio: 1;
   width: 28px;
 }
 
@@ -86,6 +85,30 @@ ul li:hover{
   width: 100%; 
 }
 
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+
+#top{
+  background-image: url('./assets/img/footer-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+#bottom{
+  background-image: url(./assets/img/);
+}
+
+#top .dc-Logo{
+  background-image: url('./assets/img/dc-logo-bg.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 
 
 
