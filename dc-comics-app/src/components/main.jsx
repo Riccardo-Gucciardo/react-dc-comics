@@ -4,6 +4,10 @@ function Main(){
     return(
         <>
         <main>
+        <section id="fumetti">
+                <div className="containerBackground">
+                </div>
+            </section>
             <section id="fumetti">
                 <div className="container">
                     <ProdctList />
@@ -35,6 +39,7 @@ function Main(){
                     </ul>
                 </div>
             </section>
+
         </main>
         </>
 
