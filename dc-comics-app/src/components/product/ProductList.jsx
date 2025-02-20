@@ -160,7 +160,9 @@ const ProdctList = () => {
 
     return(
     <section id="products">
+        <button className="buttonUp">CRRENT SERIES</button>
         <div className="products">
+            
             {
                 comics.map((product) =>{
                     return(
