@@ -1,10 +1,12 @@
+import ProdctList from "./product/ProductList";
+
 function Main(){
     return(
         <>
         <main>
             <section id="fumetti">
                 <div className="container">
-                    <h2>--Content gose here--</h2>
+                    <ProdctList />
                 </div>
             </section>
             <section id="icons">
