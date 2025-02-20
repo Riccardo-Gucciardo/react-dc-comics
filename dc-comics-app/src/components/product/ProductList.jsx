@@ -1,3 +1,5 @@
+import ProductCard from "./PrductCard";
+
 const ProdctList = () => {
 
     const comics = [
@@ -162,10 +164,11 @@ const ProdctList = () => {
             {
                 comics.map((product) =>{
                     return(
-                        <div className="card" key={product.id}>
-                            <img src={product.thumb} alt="" />
-                            <h3>{product.title}</h3>
-                        </div>
+                        <ProductCard key={product.id} product={product}/>
+                        // <div className="card" key={product.id}>
+                        //     <img src={product.thumb} alt="" />
+                        //     <h3>{product.title}</h3>
+                        // </div>
 
                     )
                 })
